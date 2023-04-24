@@ -1,5 +1,6 @@
 # LIMIC
 This repository is the official implementation of the paper 
+
 “Jun-Xiang Mao, Wei Wang, Min-Ling Zhang. Label-Specific Multi-Semantics Metric Learning for Multi-Label Classification. In: Proceedings of the 32th International Joint Conference on Artificial Intelligence (IJCAI'23), Macao, China.”
 
 ***
