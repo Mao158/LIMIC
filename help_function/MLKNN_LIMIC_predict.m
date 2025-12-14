@@ -62,7 +62,7 @@
 % Pre_Labels = ones(num_label, num_test);
 % Pre_Labels(Outputs <= 0.5) = -1;
 
-function [Outputs, Pre_Labels] = MMMLC_MLKNN_predict(test_data, train_data, train_target, num_neighbour, Prior, PriorN, Cond, CondN, L, para)
+function [Outputs, Pre_Labels] = MLKNN_LIMIC_predict(test_data, train_data, train_target, num_neighbour, Prior, PriorN, Cond, CondN, L, para)
 % MMMLC_MLKNN_predict predicts labels using a trained multi-label kNN classifier with per-label local metrics.
 %
 % Syntax:

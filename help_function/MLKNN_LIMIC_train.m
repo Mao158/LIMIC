@@ -71,7 +71,7 @@
 %     end
 % end
 
-function [Prior, PriorN, Cond, CondN] = MMMLC_MLKNN_train(train_data, train_target, num_neighbour, smooth, L, para)
+function [Prior, PriorN, Cond, CondN] = MLKNN_LIMIC_train(train_data, train_target, num_neighbour, smooth, L, para)
 % MMMLC_MLKNN_train trains a multi-label k-nearest neighbor classifier with per-label local metrics.
 %
 % Syntax:
